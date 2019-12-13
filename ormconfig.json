@@ -1,10 +1,10 @@
 {
    "type": "postgres",
-   "host": "localhost",
+   "host": "ec2-46-137-188-105.eu-west-1.compute.amazonaws.com\n",
    "port": 5432,
-   "username": "kate",
-   "password": "qwerty",
-   "database": "shop",
+   "username": "ovdnlqcsbrjcky",
+   "password": "443442a31180847ae25b57349ab6595da95f18ccde6d432b90fb73ca98844fdd",
+   "database": "d644bjamhvlkg0",
    "synchronize": true,
    "logging": false,
    "entities": [

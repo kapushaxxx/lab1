@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 10.16.1
+script:
+  - npm run test
+deploy:
+  provider: heroku
+  app: kapuusha
+  api_key:
+    secure: tF/jYy597PMvPEUSGqHzhMSRYMmGhBJ0oXx5a903OePyfVR4Vm8dGL5zEpIWfkW+8tDRF8CiiWl0JmDO6dQ+6n69Djy4MyFtFEwliMXTJ4QGVefU7DPo+048uMnEaSZL1jMBPQZhWFE+ptu7ibbMMsxS7xxF44sqbSk3Aw6CKdOWR0VnxemwD72wK3oyqkcV532ALsjKJ2ONVjNz5/ZpQck+LkLsGrhUyveu16FiibZ5aGk1d8ipJM7KqyeNrAH+Rg2WKsfQTSsG7Jgm68LzZbxQpQ9Rq7mN4v3UGEBz3E22GbH4YIwyzDnKIPE14fkXLlorLCFtLD4VSkOgZwS81IWcK0Lfukdx8yUTykUAP++ixk2DRdksb/o7W5Cmt7CY9oyE2fRaaATHAnFL4H9NzMWVlkJO9jLb71YRW3NA3wJrVR19vvvbdhqQvqJmUKxvdyO3QEFEXR5jOGxI5FqWnotctE7xf1eCCBzXIMRMgBieCLH6ufTABWMw1A0R/oyG86ApSHckbrk+E0JSDjhfxFFAsD8LtDZXSnWzsXzhqGsQ8GB4yh5MH42wLk1Do+8p3FQHtpnrVKoThA/iP++YKwI7FC1I+C2crb2YabVNhMh1/LFin/fwXPG2F9LQcXvAUZXMtmfN3cfLt8JNJyfhEHyi965LvDcwAGMzZLFRpzA=

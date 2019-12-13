@@ -41,4 +41,11 @@ describe('Rouiting tests', () => {
             .query({"dd": 2}).expect(200)
             .end(done);
     });
+
+    it ('product added', (done) => {
+        request(app)
+            .post("/product")
+            .send({"name": "sssss", "type": "dssfsdf", price: 222}).expect(200)
+            .end(done);
+    });
 });
